@@ -1,0 +1,36 @@
+# .NET
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.user
+*.userosscache
+*.suo
+*.cache
+*.dll
+*.pdb
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider / VS / VS Code
+.idea/
+.vs/
+*.DotSettings.user
+
+# Flutter / Dart
+mobile/**/.dart_tool/
+mobile/**/build/
+mobile/**/.packages
+mobile/**/pubspec.lock
+mobile/**/.flutter-plugins
+mobile/**/.flutter-plugins-dependencies
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env secrets (nunca commitar)
+.env
+.env.local
+*.Development.local.json
